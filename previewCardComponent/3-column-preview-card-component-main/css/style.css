@@ -21,55 +21,72 @@ html {
     font-size: 62.5%;
 }
 
-.main-container{
+.section--first {
+    width: 100%;
+    height: 100vh;
     display: flex;
-    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Estilos de la primera tarjeta */
 
-.container1{
-    border-radius: 16px;
-    display: flex;
-    padding-left: 30px;
-    margin: 0 auto;
+.section--first .section__article div {
+    background-image: url("../images/icon-sedans.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     display: block;
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.section--first .section__article {
+    border-top-left-radius: 1.6rem;
+    border-bottom-left-radius: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 3rem;
     width: 300px;
     height: 500px;
     background-color: var(--color-background-one);
-
 }
-.icon1{
+.section--first .section__article img {
     margin-top: 40px;
 }
-
-.sedans{
+.section--first .section__article h2 {
     font-family: 'Big Shoulders Display', cursive;
     color: var(--color-headings);
-    font-size: 15px;
+    font-size: 2.3rem;
     padding-top: 35px;
+    text-transform: uppercase;
 }
 
-.choose{
-    opacity: 60%;
-    line-height: 30px;
+.section--first .section__article p {
+    line-height: 1.5rem;
     margin-top:40px;
-    padding-right: 50px;
     font-family: 'Lexend Deca', sans-serif; 
     color: var(--color-letter-body);
-    font-size: 15px;
+    font-size: 0.9rem;
 }
 
-.button-sedan{
+.section--first .section__article a {
+    width: 10rem;
     font-size: 16px;
     margin-top: 70px;
     border-radius: 50px;
+    text-transform: capitalize;
     padding: 15px 20px 15px 20px ;
     color: var(--color-background-one);
     border:1px ;
+    background-color: var(--color-background-button);
+    text-decoration: none;
+    text-align: center;
+    align-self: center;
 }
 
-.button-sedan:hover{
+.section--first .section__article a:hover{
     background-color: var(--background-button);
     color: var(--color-letter-button);
     border: 2px solid var(--color-letter-button);
@@ -77,9 +94,6 @@ html {
 }
 
 /* Fin de los estilos de la primera tarjeta */
-
-
-/* 
 
 
 
