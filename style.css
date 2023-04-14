@@ -1,0 +1,75 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+}
+
+.main-container{
+   display: flex;
+   padding-top: 50px;
+   
+}
+
+
+/* Estilos de la primera tarjeta */
+
+.container1{
+    border-radius: 16px;
+    display: flex;
+    padding-left: 30px;
+    margin: 0 auto;
+    display: block;
+     width: 300px;
+     height: 500px;
+    background-color: #e28525;
+
+}
+.icon1{
+    margin-top: 40px;
+}
+
+.sedans{
+font-family: 'Big Shoulders Display', cursive;
+color: white;
+font-size: ;
+padding-top: 35px;
+}
+
+.choose{
+
+opacity: 60%;
+line-height: 30px;
+margin-top:40px;
+padding-right: 50px;
+font-family: 'Lexend Deca', sans-serif; 
+color: white;
+font-size: 15px;
+}
+
+.button-sedan{
+    font-size: 16px;
+margin-top: 70px;
+border-radius: 50px;
+padding: 15px 20px 15px 20px ;
+    color: #e28525;
+    border:1px white;
+}
+
+.button-sedan:hover{
+    background-color: #e28525;
+    color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+/* Fin de los estilos de la primera tarjeta */
+
+
+/* 
+
+
+
